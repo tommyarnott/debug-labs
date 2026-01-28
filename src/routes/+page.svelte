@@ -4,7 +4,7 @@
 
 <div class="container">
 	<h1>Labs</h1>
-	<p>Welcome to the labs.</p>
+	<p>Welcome to Debug labs.</p>
 </div>
 
 <style>
