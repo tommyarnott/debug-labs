@@ -5,6 +5,7 @@
 <div class="container">
 	<h1>Labs</h1>
 	<p>Welcome to Debug labs.</p>
+	<a href='/project/grid-tiles'>Grid Tiles</a>
 </div>
 
 <style>
