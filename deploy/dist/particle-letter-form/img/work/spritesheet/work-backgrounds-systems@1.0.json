@@ -1,0 +1,36 @@
+{"frames": {
+
+"igb.jpg":
+{
+	"frame": {"x":0,"y":1011,"w":1921,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1921,"h":1080},
+	"sourceSize": {"w":1921,"h":1080}
+},
+"m4g.jpg":
+{
+	"frame": {"x":0,"y":2091,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"opening-bg.jpg":
+{
+	"frame": {"x":0,"y":0,"w":1660,"h":1011},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1660,"h":1011},
+	"sourceSize": {"w":1660,"h":1011}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "work-backgrounds-systems@1.0.jpg",
+	"format": "RGB888",
+	"size": {"w":1921,"h":3171},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:723bdb5c50e114a013c2bb4e1ef80007:90fe32beea7b7bd6286750ed30a7f43b:3b5e96d0cafc5d05d6aa96b5a623bf03$"
+}
+}

@@ -1,0 +1,105 @@
+{"frames": {
+
+"moth_00.png":
+{
+	"frame": {"x":1,"y":1,"w":49,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":14,"w":49,"h":71},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_01.png":
+{
+	"frame": {"x":74,"y":1,"w":51,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":14,"w":51,"h":72},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_02.png":
+{
+	"frame": {"x":72,"y":75,"w":55,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":16,"w":55,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_03.png":
+{
+	"frame": {"x":1,"y":171,"w":63,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":63,"h":64},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_04.png":
+{
+	"frame": {"x":1,"y":108,"w":68,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":19,"w":68,"h":61},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_05.png":
+{
+	"frame": {"x":67,"y":220,"w":72,"h":60},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":19,"w":72,"h":60},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_06.png":
+{
+	"frame": {"x":1,"y":108,"w":68,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":19,"w":68,"h":61},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_07.png":
+{
+	"frame": {"x":1,"y":236,"w":63,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":17,"w":63,"h":66},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_08.png":
+{
+	"frame": {"x":1,"y":52,"w":54,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":16,"w":54,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"moth_09.png":
+{
+	"frame": {"x":71,"y":146,"w":51,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":14,"w":51,"h":72},
+	"sourceSize": {"w":100,"h":100},
+	"anchor": {"x":0.5,"y":0.5}
+}},
+"animations": {
+	"moth": ["moth_00.png","moth_01.png","moth_02.png","moth_03.png","moth_04.png","moth_05.png","moth_06.png","moth_07.png","moth_08.png","moth_09.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "moth.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":303},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b6fa961f0ddfc97c6d90a9c27e358c34:7e4385674cd241115acfd05aaaa44271:ee14cd62be4468ccbc0368f95ec10e6e$"
+}
+}

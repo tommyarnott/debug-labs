@@ -1,0 +1,11 @@
+{
+	
+	"videos": [
+		{"slug":"march-for-giants", "src":"march-for-giants.mp4"},
+		{"slug":"total-darkness", "src":"total-darkness.mp4"},
+		{"slug":"market-masters", "src":"market-masters.mp4"},
+		{"slug":"toy-town", "src":"toy-town.mp4"},
+		{"slug":"toy-store", "src":"toy-store.mp4"}
+	]
+
+}

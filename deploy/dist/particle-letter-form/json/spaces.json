@@ -1,0 +1,105 @@
+{
+
+	"dragEasePower": 2,
+	"easePower": 18,
+	"velocityFactor": 2.5,
+	"velocityFriction": 0.90,
+	"rotationFactor": 45,
+	"maxRotation": 35,
+	"dragToMoveRatio": 1,
+
+	"projects": [
+
+		{
+
+			"order": 1,
+			"slug": "ready-player-one",
+			"image": "ready-player-one.jpg",
+			"tint": "0xe169ff",
+			"particles": [
+
+
+				{ "texture": "rpo-character.png",  "x": 0.45, "y": 0.8, "z": 3.5,  "depth": -2,  "scale": 0.75, "retainInCaseStudy": true, "projectAnimationOffset": 0.3,  "projectScale": 1, "projectY": 0.9, "mobileProjectY": 0.78,  "projectMobileScale": 1.2},
+				{ "texture": "rpo-left-pipe.png",  "x": 0.02, "y": 0.13, "z": 1,  "depth": -2,  "scale": 0.6, "retainInCaseStudy": true,  "projectAnimationOffset": 0.1,  "projectScale": 0.5,  "projectMobileScale": 0.7},
+				{ "texture": "rpo-right-pipe.png",  "x": 0.9, "mobileX": 0.92, "y": 0.25, "mobileY": 0.23, "z": 0.5,  "depth": -2,  "scale": 0.9, "mobileScale": 0.8, "retainInCaseStudy": true, "projectAnimationOffset": 0.1, "projectScale": 1.1, "projectMobileScale": 1.1, "projectX": 0.95},
+
+
+				{ "texture": "rpo-dust-large.png",  "x": -0.025, "y": 0.25, "z": 5, "alpha": 0.1, "depth": 1,  "scale": 0.6, "retainInCaseStudy": true, "autoAlpha": true, "autoScale": true},
+				{ "texture": "rpo-dust-large.png",  "x": -0.035, "y": 0.7, "z": 5, "alpha": 0.1, "depth": 1,  "scale": 0.45, "retainInCaseStudy": true, "autoAlpha": true, "autoScale": true},
+				{ "texture": "rpo-dust-large.png",  "x": 0.75, "y": 1.03, "z": 7,  "depth": 1,  "alpha": 0.07,  "scale": 1.3, "retainInCaseStudy": true, "autoAlpha": true, "autoScale": true},
+				{ "texture": "rpo-dust-large.png",  "x": 0.8, "y": 1.0, "z": 5,  "depth": 1,  "alpha": 0.13,  "scale": 0.9, "retainInCaseStudy": true, "autoAlpha": true, "autoScale": true},
+				{ "texture": "rpo-dust-large.png",  "x": 0.99, "y": 0.2, "z": 5,  "depth": 1,  "alpha": 0.13,  "scale": 0.9, "retainInCaseStudy": true, "autoAlpha": true, "autoScale": true},
+				{ "texture": "rpo-dust-large.png",  "x": 1, "y": 1, "z": 5,  "depth": 1, "alpha": 0.03,  "scale": 1.4, "retainInCaseStudy": true, "autoAlpha": true, "autoScale": true},
+				
+
+				{ "texture": "rpo-dust-1.png",  "x": 0.08, "y": 0.46, "z": 5,  "depth": 1,  "scale": 0.9, "retainInCaseStudy": false, "autoAlpha": true, "autoRotate": true},
+				{ "texture": "rpo-dust-2.png",  "x": 0.40, "y": -0.02, "z": 4.4,  "depth": 1,  "scale": 0.9, "retainInCaseStudy": false, "autoAlpha": true, "autoRotate": true},
+				{ "texture": "rpo-dust-3.png",  "x": -0.07, "y": 0.38, "z": 4.8,  "depth": 1,  "scale": 0.8, "retainInCaseStudy": false, "autoAlpha": true, "autoRotate": true},
+				{ "texture": "rpo-dust-4.png",  "x": 0.2, "y": 0.75, "z": 3,  "depth": 1,  "scale": 0.9, "retainInCaseStudy": false, "autoAlpha": true, "autoRotate": true},
+				{ "texture": "rpo-dust-5.png",  "x": 1.02, "y": 0.05, "z": 2,  "depth": 1,  "scale": 0.9, "retainInCaseStudy": false, "autoAlpha": true, "autoRotate": true},
+				{ "texture": "rpo-dust-6.png",  "x": 0.95, "y": 0.76, "z": 6,  "depth": 1,  "scale": 0.9, "retainInCaseStudy": false, "autoAlpha": true, "autoRotate": true}
+
+			]
+		},
+
+		{
+
+			"order": 2,
+			"slug": "anish-kapoor-into-yourself-fall",
+			"image": "anush-kapoor.jpg",
+			"tint": "0x990000",
+			"particles": [
+			
+				{ "texture": "iuf-person.png",  "x": 0.41, "mobileProjectX": 0.36, "y": 0.45, "z": 3,  "depth": 1,  "scale": 0.75, "retainInCaseStudy": true}
+			]
+
+		},
+
+		{
+
+			"order": 3,
+			"slug": "tracing-the-sky",
+			"image": "tracing-the-sky.jpg",
+			"headerType": "video",
+			"tint": "0x990000",
+			"particles": [
+				{ "texture": "mm-6.png", "x": -0.25, "y": -1.05, "speed": 1, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": 1.3, "y": -0.8, "speed": 0.6,"depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true,   "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{"texture": "mm-6.png",  "x": 1.05, "y": -0.2, "speed": 0.1, "depth": -1, "autoScale": true,  "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{"texture": "mm-6.png", "x": 1.2, "y": 0.75, "speed": 0, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true,  "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": -0.3, "y": 1.0, "speed": 0.5, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"], "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": -1.15, "y": 0.75, "speed": 0.3, "depth": -1, "autoScale": true, "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": -1.2, "y": 0, "speed": 0.6, "depth": -1, "autoScale": true,  "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png",  "x": -1.25, "y": -0.7, "speed": 0.2, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"], "autoRotate": true, "autoAlpha": true},
+					{"texture": "mm-6.png", "x": -0.5, "y": 0.3, "speed": 0.4, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"], "autoRotate": true, "autoAlpha": true}
+				
+			]
+
+		},
+
+
+		{
+			"order": 4,
+			"slug": "tend",
+			"image": "tend.jpg",
+			"tint": "0x990000",
+			"active": false,
+			"particles": [
+				{ "texture": "mm-6.png", "x": -0.25, "y": -1.05, "speed": 1, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": 1.3, "y": -0.8, "speed": 0.6,"depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true,   "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{"texture": "mm-6.png",  "x": 1.05, "y": -0.2, "speed": 0.1, "depth": -1, "autoScale": true,  "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{"texture": "mm-6.png", "x": 1.2, "y": 0.75, "speed": 0, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true,  "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": -0.3, "y": 1.0, "speed": 0.5, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"], "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": -1.15, "y": 0.75, "speed": 0.3, "depth": -1, "autoScale": true, "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png", "x": -1.2, "y": 0, "speed": 0.6, "depth": -1, "autoScale": true,  "preset": ["big", "small"],  "autoRotate": true, "autoAlpha": true},
+					{ "texture": "mm-6.png",  "x": -1.25, "y": -0.7, "speed": 0.2, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"], "autoRotate": true, "autoAlpha": true},
+					{"texture": "mm-6.png", "x": -0.5, "y": 0.3, "speed": 0.4, "depth": 1, "retainInCaseStudy": true, "caseStudyScrollParallax": 0.12, "autoScale": true, "preset": ["big", "small"], "autoRotate": true, "autoAlpha": true}
+				
+			
+			]
+
+		}
+
+
+	]
+}

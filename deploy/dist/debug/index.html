@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debug.io</title>
+
+  <!-- Load GSAP and PIXI synchronously BEFORE module scripts -->
+  <script src="https://pixijs.download/v8.2.1/pixi.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SoundJS/1.0.2/soundjs.min.js"></script>
+
+  <script>
+    // Set up GSAP globals immediately (before modules load)
+    if (typeof gsap !== 'undefined') {
+      gsap.registerPlugin(PixiPlugin);
+      window.gsap = gsap;
+      window.gsap.TweenMax = TweenMax;
+      window.gsap.TimelineMax = TimelineMax;
+      window.gsap.Power0 = Power0;
+      window.gsap.Power1 = Power1;
+      window.gsap.Power2 = Power2;
+      window.gsap.Power3 = Power3;
+      window.gsap.Power4 = Power4;
+      window.gsap.Back = Back;
+      console.log('GSAP loaded in head, ready for modules');
+    }
+  </script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      overflow: hidden !important;
+      overflow-x: hidden !important;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: #000;
+      color: #fff;
+      overflow: hidden !important;
+      overflow-x: hidden !important;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    html::-webkit-scrollbar {
+      display: none;
+    }
+
+    #pixi {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .container {
+      display: none;
+    }
+
+    header {
+      display: none;
+    }
+
+    h1 {
+      display: none;
+    }
+
+    .subtitle {
+      display: none;
+    }
+
+    main {
+      display: none;
+    }
+
+    #app {
+      display: none;
+    }
+
+    /* dat.GUI Black with White Highlights */
+    .dg.ac {
+      z-index: 9999 !important;
+      position: fixed !important;
+      bottom: 20px !important;
+      left: 20px !important;
+      top: auto !important;
+      right: auto !important;
+    }
+
+    .dg.main {
+      background: #1a1a1a !important;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+
+    .dg .slider,
+    .dg input[type="text"],
+    .dg input[type="number"],
+    .dg select {
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+
+   
+    .dg.main .close-button {
+      background: #1a1a1a !important;
+      color: #ffffff !important;
+    }
+
+    .dg.main .close-button:hover {
+      background: #2a2a2a !important;
+    }
+
+    .dg .c {
+      background: #1a1a1a !important;
+    }
+
+    .dg li:not(.folder) {
+      background: #1a1a1a !important;
+      border-bottom: 1px solid #333333 !important;
+    }
+
+    .dg li.title {
+      background: #1a1a1a !important;
+      color: #ffffff !important;
+    }
+
+    .dg .cr.number {
+      border-left: 3px solid #ffffff !important;
+    }
+
+    .dg .cr.string {
+      border-left: 3px solid #ffffff !important;
+    }
+
+    .dg .cr.boolean {
+      border-left: 3px solid #ffffff !important;
+    }
+
+    .dg .cr.function {
+      border-left: 3px solid #ffffff !important;
+    }
+
+    .dg .property-name {
+      color: #ffffff !important;
+    }
+
+    .dg input[type="text"],
+    .dg input[type="number"],
+    .dg select {
+      background: #2a2a2a !important;
+      color: #ffffff !important;
+      border: 1px solid #444444 !important;
+    }
+
+    .dg input[type="text"]:hover,
+    .dg input[type="number"]:hover,
+    .dg select:hover {
+      background: #333333 !important;
+      border-color: #ffffff !important;
+    }
+
+    .dg .c input[type="text"]:hover,
+    .dg .c input[type="number"]:hover {
+      background: #333333 !important;
+    }
+
+    .dg .slider {
+      background: #2a2a2a !important;
+    }
+
+    .dg .slider-fg {
+      background: #ffffff !important;
+    }
+
+    .dg li.folder {
+      border-bottom: 1px solid #333333 !important;
+    }
+
+    .dg ul .folder .title {
+      background: #1a1a1a !important;
+      color: #ffffff !important;
+    }
+
+    .dg select option {
+      background: #2a2a2a !important;
+      color: #ffffff !important;
+    }
+  </style>
+  <script type="module" crossorigin src="./js/main.B3UvApFy.js"></script>
+</head>
+
+<body>
+
+    <canvas id='pixi'></canvas>
+    
+
+  <script>
+    // Initialize window properties
+    window.cachedInnerWidth = window.innerWidth;
+    window.cachedInnerHeight = window.innerHeight;
+    window.projectData = {};
+  </script>
+
+  <!-- Main application bundle (module) loads after GSAP is ready -->
+</body>
+</html>

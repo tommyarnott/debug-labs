@@ -1,0 +1,52 @@
+{"frames": {
+
+"anush-kapoor.jpg":
+{
+	"frame": {"x":0,"y":541,"w":960,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":540},
+	"sourceSize": {"w":960,"h":540}
+},
+"opening-bg.jpg":
+{
+	"frame": {"x":0,"y":2026,"w":830,"h":506},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":830,"h":506},
+	"sourceSize": {"w":830,"h":506}
+},
+"ready-player-one.jpg":
+{
+	"frame": {"x":0,"y":0,"w":960,"h":541},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":541},
+	"sourceSize": {"w":960,"h":541}
+},
+"tend.jpg":
+{
+	"frame": {"x":0,"y":1621,"w":960,"h":405},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":405},
+	"sourceSize": {"w":960,"h":405}
+},
+"tracing-the-sky.jpg":
+{
+	"frame": {"x":0,"y":1081,"w":960,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":540},
+	"sourceSize": {"w":960,"h":540}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "work-backgrounds-spaces@0.5.jpg",
+	"format": "RGB888",
+	"size": {"w":960,"h":2532},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:afc8c16ab017189324ae9a0ab7296d35:cde9b7ebb6aa6559bdb8701dfd9ea003:0c8d5aec7426151233b052c901bfc97c$"
+}
+}

@@ -1,0 +1,39 @@
+{"frames": {
+
+"glow.png":
+{
+	"frame": {"x":603,"y":378,"w":169,"h":162},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":162},
+	"sourceSize": {"w":169,"h":162},
+	"anchor": {"x":0,"y":0}
+},
+"rpo-character.png":
+{
+	"frame": {"x":1,"y":378,"w":207,"h":600},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":207,"h":600},
+	"sourceSize": {"w":207,"h":605},
+	"anchor": {"x":0,"y":0}
+},
+"tile-glow.png":
+{
+	"frame": {"x":1,"y":1,"w":636,"h":375},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":636,"h":375},
+	"sourceSize": {"w":648,"h":375},
+	"anchor": {"x":0,"y":0}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "particles_32@0.5.png",
+	"format": "RGBA8888",
+	"size": {"w":766,"h":586},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:581041255b9588e4d568a0ebe4bdf6a9:bf13afd0bbadccee801a36ba557af275:c9aac11de14fcdcd2913c9483f1977a0$"
+}
+}

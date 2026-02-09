@@ -1,0 +1,46 @@
+{"frames": {
+
+"m4g.psd":
+{
+	"frame": {"x":1920,"y":0,"w":1920,"h":1121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1121},
+	"sourceSize": {"w":1920,"h":1121}
+},
+"m4g_2.psd":
+{
+	"frame": {"x":0,"y":0,"w":1920,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1080},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"market-masters-bg.psd":
+{
+	"frame": {"x":0,"y":1080,"w":1920,"h":1121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1121},
+	"sourceSize": {"w":1920,"h":1121}
+},
+"toy-town-background.psd":
+{
+	"frame": {"x":1920,"y":1121,"w":1920,"h":1121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1920,"h":1121},
+	"sourceSize": {"w":1920,"h":1121}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "work-backgrounds-screens-0-@x1.jpg",
+	"format": "RGB888",
+	"size": {"w":3840,"h":2242},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f4f083d03c5a482147fdf013145fb457:7e225afd81cd4bb0afe02522c82ac3b2:096bf00dcc73ab0864cdd968ef157ac5$"
+}
+}
