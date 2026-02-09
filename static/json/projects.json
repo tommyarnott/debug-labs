@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "grid-tiles",
+    "title": "Grid Tiles",
+    "description": "An interactive tile grid visualization built with React and Pixi.js, showcasing relative color manipulation",
+    "img": "/img/projects/grid-tiles.png",
+    "gitrepo": null,
+    "download": null,
+    "tags": ["React", "Pixi.js", "Relative Colours", "WebGL"]
+  },
+  {
+    "slug": "particle-letter-form",
+    "title": "Particle System",
+    "description": "A mesmerizing particle system with physics simulation and interactive controls",
+    "img": "/img/projects/particle-letter-form.jpg",
+    "iframe": "debug/index.html?type=dicon",
+    "gitrepo": "https://github.com/example/particle-system",
+    "download": null,
+    "tags": ["WebGL", "Physics", "Pixi.js", "Particles", "TypeScript"]
+  },
+
+    {
+    "slug": "particle-drop",
+    "title": "Particle Drop",
+    "description": "A mesmerizing particle system with physics simulation and interactive controls",
+    "img": "/img/projects/particle-letter-form.jpg",
+    "iframe": "debug/index.html?type=screens",
+    "gitrepo": "https://github.com/example/particle-system",
+    "download": null,
+    "tags": ["WebGL", "Physics", "Pixi.js", "Particles", "TypeScript"]
+  },
+  {
+    "slug": "audio-visualizer",
+    "title": "Audio Visualizer",
+    "description": "Real-time audio visualization using Web Audio API with customizable effects",
+    "img": "/dist/grid-tiles/vite.svg",
+    "iframe": "/dist/audio-visualizer/index.html",
+    "gitrepo": null,
+    "download": null,
+    "tags": ["Web Audio API", "Canvas", "JavaScript", "Unity"]
+  },
+  {
+    "slug": "shader-playground",
+    "title": "Shader Playground",
+    "description": "Experiment with GLSL shaders in real-time with an interactive editor",
+    "img": "/dist/grid-tiles/vite.svg",
+    "iframe": "/dist/shader-playground/index.html",
+    "gitrepo": "https://github.com/example/shader-playground",
+    "download": null,
+    "tags": ["GLSL", "WebGL", "Shaders"]
+  },
+  {
+    "slug": "css-animations",
+    "title": "CSS Animation Lab",
+    "description": "A collection of creative CSS animations and transitions showcasing modern techniques",
+    "img": "/dist/grid-tiles/vite.svg",
+    "iframe": "/dist/css-animations/index.html",
+    "gitrepo": null,
+    "download": "/downloads/css-animations.zip",
+    "tags": ["CSS", "Animations", "Design"]
+  },
+  {
+    "slug": "neural-network-viz",
+    "title": "Neural Network Visualizer",
+    "description": "Interactive visualization of neural networks with training data and model architecture",
+    "img": "/dist/grid-tiles/vite.svg",
+    "iframe": "/dist/neural-network-viz/index.html",
+    "gitrepo": "https://github.com/example/neural-viz",
+    "download": null,
+    "tags": ["Machine Learning", "D3.js", "Visualization"]
+  }
+]
