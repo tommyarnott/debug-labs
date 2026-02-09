@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://staging20.debug.io/sitemap.xml
